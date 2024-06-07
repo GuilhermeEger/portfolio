@@ -1,0 +1,13 @@
+    .cb_mainDiv {
+        display: flex;
+        gap: 50px;
+    }
+
+    .cd_img {
+        width: 100%;
+        max-width: 650px;
+    }
+
+    .cb_mainDiv {
+        padding-top: 240px;
+    }
