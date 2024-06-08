@@ -1,11 +1,18 @@
 import React from "react";
-import foodLandingPage from "../../assets/foodLandingPage.png";
 import "./ContentBox.css";
+import ImageVideo from "../ImageVideo/ImageVideo";
 
 function ContentBox(props) {
   return (
     <div className="cb_mainDiv">
-      <div className={"cb_wrapDev " + (props.gridTemplate == "text-img" ? "contentLeftArea" : "contentRightArea")}>
+      <div
+        className={
+          "cb_wrapDev " +
+          (props.gridTemplate == "text-img"
+            ? "contentLeftArea"
+            : "contentRightArea")
+        }
+      >
         <h1 className="cb_title">Olá, sou o Guilherme</h1>
         <p>asdasdads asd</p>
         <p>
@@ -13,8 +20,15 @@ function ContentBox(props) {
           as dadada adasd sdas
         </p>
       </div>
-      <div className={"cd_imgDiv" + (props.gridTemplate == "text-img" ? "contentLeftArea" : "contentRightArea")}>
-        <img className="cd_img" src={foodLandingPage} />
+      <div
+        className={
+          "cd_imgDiv" +
+          (props.gridTemplate == "text-img"
+            ? "contentLeftArea"
+            : "contentRightArea")
+        }
+      >
+        <ImageVideo img={props.img} video={props.video} />
       </div>
     </div>
   );

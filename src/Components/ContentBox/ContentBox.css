@@ -1,27 +1,22 @@
-    .cb_mainDiv {
-        display: grid;
-        grid-template-areas: "left right";
-        grid-template-columns: 1fr 1fr;
-        gap: 50px;
-    }
+.cb_mainDiv {
+  display: grid;
+  grid-template-areas: "left right";
+  grid-template-columns: 1fr 1fr;
+  gap: 50px;
+}
 
-    .contentLeftArea{
-        grid-area: left;
-    }
+.contentLeftArea {
+  grid-area: left;
+}
 
-    .contentRightArea{
-        grid-area: right;
-    }
+.contentRightArea {
+  grid-area: right;
+}
 
-    .cd_img {
-        width: 100%;
-        max-width: 650px;
-    }
-
-    .cb_mainDiv {
-        padding-top: 240px;
-    }
+.cb_mainDiv {
+  padding-top: 240px;
+}
 
 .cd_imgDiv {
-    margin-top: 30px;
+  margin-top: 30px;
 }

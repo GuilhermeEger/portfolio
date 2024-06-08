@@ -1,0 +1,23 @@
+.iv_video {
+    width: 100%;
+}
+
+.iv_mainDiv{
+    position: relative;
+}
+
+.iv_icon {
+    padding: 14px;
+    position: absolute;
+    bottom: 15px;
+    right: 15px;
+    background: #FF0000;
+    border-radius: 30px;
+    color: white;
+    cursor: pointer;
+    box-shadow: 1px 1px 7px #FF0000;
+}
+
+.iv_img {
+    width: 100%;
+  }

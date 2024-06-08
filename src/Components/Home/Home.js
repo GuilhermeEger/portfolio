@@ -2,6 +2,13 @@ import React from "react";
 import "./Home.css";
 import perfilphoto from "../../assets/original.jpg";
 import ContentBox from "../ContentBox/ContentBox";
+import foodLandingPageVideo from "../../assets/foodLandingPage.mp4";
+import foodLandingPage from "../../assets/foodLandingPage.png";
+import memoryGameVideo from "../../assets/memory-game.mp4";
+import memoryGame from "../../assets/memory-game.png";
+import ticTacToe from "../../assets/tic-tac-toe.png";
+import ticTacToeVideo from "../../assets/tic-tac-toe.mp4";
+import Carousel from "../Carousel/Carousel";
 
 function Home(props) {
   return (
@@ -21,17 +28,44 @@ function Home(props) {
               </p>
             </div>
             <div className="personLinksBox">
-              <div>LinkedIn</div>
-              <div>gitHub</div>
-              <div>resume</div>
+              <a
+                target="_blank"
+                href="https://www.linkedin.com/in/guilhermeeger"
+              >
+                LinkedIn
+              </a>
+              <a target="_blank" href="https://github.com/GuilhermeEger">
+                gitHub
+              </a>
+              <a
+                target="_blank"
+                href="https://drive.google.com/file/d/1tKC9157r5Qsear3S1Wo_7Gp2g8csAsID/view?usp=sharing"
+              >
+                resume
+              </a>
             </div>
           </div>
         </div>
       </div>
       <div className="projecs">
-        <ContentBox gridTemplate={"text-img"}/>
-        <ContentBox gridTemplate={"img-text"}/>
-        <ContentBox gridTemplate={"text-img"}/>
+        <ContentBox
+          video={foodLandingPageVideo}
+          img={foodLandingPage}
+          gridTemplate={"text-img"}
+        />
+        <ContentBox
+          video={memoryGameVideo}
+          img={memoryGame}
+          gridTemplate={"img-text"}
+        />
+        <ContentBox
+          video={ticTacToeVideo}
+          img={ticTacToe}
+          gridTemplate={"text-img"}
+        />
+        <div>
+          <Carousel />
+        </div>
       </div>
     </div>
   );
