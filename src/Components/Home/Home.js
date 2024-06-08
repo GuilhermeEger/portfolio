@@ -29,9 +29,9 @@ function Home(props) {
         </div>
       </div>
       <div className="projecs">
-        <ContentBox />
-        <ContentBox />
-        <ContentBox />
+        <ContentBox gridTemplate={"text-img"}/>
+        <ContentBox gridTemplate={"img-text"}/>
+        <ContentBox gridTemplate={"text-img"}/>
       </div>
     </div>
   );
