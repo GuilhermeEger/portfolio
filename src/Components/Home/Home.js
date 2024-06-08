@@ -47,7 +47,8 @@ function Home(props) {
           </div>
         </div>
       </div>
-      <div className="projecs">
+      <div className="projects">
+        <h1 className="mainBlockTitle">Projects</h1>
         <ContentBox
           video={foodLandingPageVideo}
           img={foodLandingPage}
