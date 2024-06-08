@@ -19,6 +19,8 @@ function ContentBox(props) {
           adsdasdasd adsa asd asd as ds da dassss asdasd asdadas asdsa as dsad
           as dadada adasd sdas
         </p>
+        <a target="_blank" href={props.codeLink}>Code</a>
+        <a target="_blank" href={props.pageLink}>Try it!</a>
       </div>
       <div
         className={

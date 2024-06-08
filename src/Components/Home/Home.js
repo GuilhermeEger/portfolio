@@ -53,16 +53,22 @@ function Home(props) {
           video={foodLandingPageVideo}
           img={foodLandingPage}
           gridTemplate={"text-img"}
+          codeLink={"https://github.com/GuilhermeEger/food-landing-page"}
+          pageLink={"https://guilhermeeger.github.io/food-landing-page/"}
         />
         <ContentBox
           video={memoryGameVideo}
           img={memoryGame}
           gridTemplate={"img-text"}
+          codeLink={"https://github.com/GuilhermeEger/memory-game"}
+          pageLink={"https://guilhermeeger.github.io/memory-game/"}
         />
         <ContentBox
           video={ticTacToeVideo}
           img={ticTacToe}
           gridTemplate={"text-img"}
+          codeLink={"https://github.com/GuilhermeEger/tic-tac-toe"}
+          pageLink={"https://guilhermeeger.github.io/tic-tac-toe/"}
         />
         <div>
           <Carousel />
