@@ -13,14 +13,15 @@ function ContentBox(props) {
             : "contentRightArea")
         }
       >
-        <h1 className="cb_title">Olá, sou o Guilherme</h1>
-        <p>asdasdads asd</p>
-        <p>
-          adsdasdasd adsa asd asd as ds da dassss asdasd asdadas asdsa as dsad
-          as dadada adasd sdas
-        </p>
-        <a target="_blank" href={props.codeLink}>Code</a>
-        <a target="_blank" href={props.pageLink}>Try it!</a>
+        <h1 className="cb_title">{props.title}</h1>
+        <div>{props.children}</div>
+        <a target="_blank" href={props.codeLink}>
+            Code
+          </a>
+          <a target="_blank" href={props.pageLink}>
+            Try it!
+          </a>
+
       </div>
       <div
         className={
