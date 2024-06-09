@@ -1,0 +1,27 @@
+{
+  "files": {
+    "main.css": "/portfolio/static/css/main.5ff0abae.css",
+    "main.js": "/portfolio/static/js/main.6551e446.js",
+    "static/js/453.1407b060.chunk.js": "/portfolio/static/js/453.1407b060.chunk.js",
+    "static/media/foodLandingPage.mp4": "/portfolio/static/media/foodLandingPage.f524de7c11be3f7d6d8f.mp4",
+    "static/media/memory-game.mp4": "/portfolio/static/media/memory-game.4c6ace6be5ae1fc5f4a0.mp4",
+    "static/media/tic-tac-toe.mp4": "/portfolio/static/media/tic-tac-toe.3de2ea6a3cea351359b4.mp4",
+    "static/media/foodLandingPage.png": "/portfolio/static/media/foodLandingPage.e6ef8561324d80d2d9cc.png",
+    "static/media/memory-game.png": "/portfolio/static/media/memory-game.2034d57e1441c2910a91.png",
+    "static/media/tic-tac-toe.png": "/portfolio/static/media/tic-tac-toe.994d46ed91c83efa9376.png",
+    "static/media/app_img4.PNG": "/portfolio/static/media/app_img4.36128f708f596cf15f46.PNG",
+    "static/media/app_img3.jpg": "/portfolio/static/media/app_img3.a1bfcc3136117baa48f1.jpg",
+    "static/media/app_img1.jpg": "/portfolio/static/media/app_img1.1ae0d34c59480f0f0091.jpg",
+    "static/media/app_img5.jpg": "/portfolio/static/media/app_img5.1c6256bf34e952a96253.jpg",
+    "static/media/app_img2.jpg": "/portfolio/static/media/app_img2.fb18cdd4e37227c849c3.jpg",
+    "static/media/original.jpg": "/portfolio/static/media/original.4b0e3cf81dc2484883c0.jpg",
+    "index.html": "/portfolio/index.html",
+    "main.5ff0abae.css.map": "/portfolio/static/css/main.5ff0abae.css.map",
+    "main.6551e446.js.map": "/portfolio/static/js/main.6551e446.js.map",
+    "453.1407b060.chunk.js.map": "/portfolio/static/js/453.1407b060.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.5ff0abae.css",
+    "static/js/main.6551e446.js"
+  ]
+}
