@@ -69,3 +69,28 @@ a {
 .pageFooter a {
   color: white;
 }
+
+@media (width <= 700px) {
+  .pageMain {
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+
+  .welcomeMainContent {
+    display: grid;
+  }
+
+  .pageFooter{
+    justify-content: center;
+    padding-left: 0px;
+  }
+
+  .divPerfilPhoto {
+    display: flex;
+    align-items: center;
+    justify-self: center;
+  }
+}
+
+
+

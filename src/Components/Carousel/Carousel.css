@@ -65,23 +65,9 @@ html {
 }
 
 .swiper-slide {
-  width: 300px !important;;
-  height: 42rem;
+  width: calc(100% - 20px) !important;
   position: relative;
-}
-
-@media (max-width: 500px) {
-  .swiper_container {
-    height: 47rem;
-  }
-  .swiper-slide {
-    width: 300px !important;
-    height: 36rem !important;
-  }
-  .swiper-slide img {
-    width: 300px !important;
-    height: 36rem !important;
-  }
+  max-width: 300px !important;
 }
 
 .swiper-slide img {

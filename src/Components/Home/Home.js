@@ -26,7 +26,7 @@ function Home(props) {
         <DarkModeSwitch mode={darkMode} changeMode={() => handleDarkMode()}/>
         <div className="welcome">
           <div className="welcomeMainContent">
-            <div>
+            <div className="divPerfilPhoto">
               <img className="photo" src={perfilphoto} />
             </div>
             <div className="personalInfoBox">
@@ -59,7 +59,39 @@ function Home(props) {
           </div>
         </div>
         <div className="projects">
-          <h1 className="mainBlockTitle">Projects</h1>
+          <div>
+            <Carousel />
+          </div>
+          <p>
+            These are some of the screens from one of the projects I developed
+            for my former company. Currently, it has over{" "}
+            <span className="highlightText">50,000 downloads</span> on the Play
+            Store, followed by another one I also developed, totaling over
+            100,000 downloads on the Play Store alone, not counting the Apple
+            Store, where the numbers were slightly higher at the time. Apple
+            does not provide the current number of app downloads in their store.
+          </p>
+          <p>
+            It was a React Native application, but I used it merely as a
+            "shell," with all development done responsively via the web, through
+            a webview!
+          </p>
+          <p>
+            The strategy behind this was that we were a rapidly growing startup,
+            and I needed to implement functionalities efficiently and extremely
+            quickly. By keeping the entire application in React Native, we could
+            potentially face delays in rolling out new versions to clients on
+            the Apple/Play Store. With the use of webview, we could deploy
+            updates, and within minutes, all clients would have access to the
+            new frontend version!
+          </p>
+          <p>
+            Additionally, this decision was also motivated by the learning
+            curve. By focusing on{" "}
+            <span className="highlightText">React.js</span>, I could potentially
+            develop screens for the web/desktop system in the future, where I
+            have executed some projects.
+          </p>
           <ContentBox
             video={foodLandingPageVideo}
             img={foodLandingPage}
@@ -133,39 +165,7 @@ function Home(props) {
               maybe that will become a reality in the future!
             </p>
           </ContentBox>
-          <div>
-            <Carousel />
-          </div>
-          <p>
-            These are some of the screens from one of the projects I developed
-            for my former company. Currently, it has over{" "}
-            <span className="highlightText">50,000 downloads</span> on the Play
-            Store, followed by another one I also developed, totaling over
-            100,000 downloads on the Play Store alone, not counting the Apple
-            Store, where the numbers were slightly higher at the time. Apple
-            does not provide the current number of app downloads in their store.
-          </p>
-          <p>
-            It was a React Native application, but I used it merely as a
-            "shell," with all development done responsively via the web, through
-            a webview!
-          </p>
-          <p>
-            The strategy behind this was that we were a rapidly growing startup,
-            and I needed to implement functionalities efficiently and extremely
-            quickly. By keeping the entire application in React Native, we could
-            potentially face delays in rolling out new versions to clients on
-            the Apple/Play Store. With the use of webview, we could deploy
-            updates, and within minutes, all clients would have access to the
-            new frontend version!
-          </p>
-          <p>
-            Additionally, this decision was also motivated by the learning
-            curve. By focusing on{" "}
-            <span className="highlightText">React.js</span>, I could potentially
-            develop screens for the web/desktop system in the future, where I
-            have executed some projects.
-          </p>
+          
         </div>
       </div>
       <div className="pageFooter">
