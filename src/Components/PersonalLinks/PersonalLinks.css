@@ -1,0 +1,17 @@
+.personalLinksBox {
+    display: flex;
+    gap: 40px;
+    align-items: center;
+  }
+
+  .linksImgText {
+    padding-top: 10px;
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    font-weight: bold;
+  }
+
+  .icon {
+    font-size: 15px;
+  }
