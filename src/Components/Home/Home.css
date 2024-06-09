@@ -17,11 +17,12 @@
   justify-content: center;
 }
 
-.Photo {
+.photo {
   max-width: 400px;
   border-radius: 100%;
   min-width: 200px;
   width: 100%;
+  margin-top: 40px;
 }
 
 .personalInfoBox {
@@ -32,17 +33,33 @@
   height: calc(100% - 50px);
 }
 
-.personLinksBox {
+.personalLinksBox {
   display: flex;
   gap: 40px;
-  height: 50px;
+  align-items: center;
 }
 
-.projects{
+.projects {
   padding: 20px;
-  border-left: 2px solid coral;
 }
 
 .mainBlockTitle {
   font-size: 40px;
+}
+
+.highlightText {
+  font-weight: bold;
+  text-decoration: underline;
+}
+
+.linksImgText {
+  padding-top: 10px;
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  font-weight: bold;
+}
+
+.icon {
+  font-size: 15px;
 }

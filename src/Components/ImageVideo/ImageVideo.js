@@ -10,7 +10,7 @@ function ImageVideo(props) {
     <div className="iv_mainDiv">
       {showVideo ? (
         <video
-          className="iv_video"
+          className="iv_video fadeInVideo"
           src={props.video}
           autoPlay
           loop

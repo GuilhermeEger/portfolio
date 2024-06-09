@@ -9,6 +9,10 @@ import memoryGame from "../../assets/memory-game.png";
 import ticTacToe from "../../assets/tic-tac-toe.png";
 import ticTacToeVideo from "../../assets/tic-tac-toe.mp4";
 import Carousel from "../Carousel/Carousel";
+import { PiLinkedinLogoFill } from "react-icons/pi";
+import { PiGithubLogoFill } from "react-icons/pi";
+import { PiFolderUserFill } from "react-icons/pi";
+import appDownloads from "../../assets/appDownloads.png";
 
 function Home(props) {
   return (
@@ -16,33 +20,58 @@ function Home(props) {
       <div className="welcome">
         <div className="welcomeMainContent">
           <div>
-            <img className="Photo" src={perfilphoto} />
+            <img className="photo" src={perfilphoto} />
           </div>
           <div className="personalInfoBox">
             <div className="infoTextBox">
-              <h1>Olá, sou o Guilherme</h1>
-              <p>asdasdads asd</p>
+              <h1>Hello, my name is Guilherme!</h1>
               <p>
-                adsdasdasd adsa asd asd as ds da dassss asdasd asdadas asdsa as
-                dsad as dadada adasd sdas
+                I am a front-end developer with experience in{" "}
+                <span className="highlightText">
+                  React, JavaScript, CSS, HTML,
+                </span>{" "}
+                and React Native. I have spent most of my time developing for a
+                native application with a webview interface, where I was
+                responsible for the design and development of all
+                functionalities.
+              </p>
+              <p>
+                Additionally, I have valuable experience as a coordinator and
+                manager, where I participated in the management of the entire
+                team and their projects. This gave me a broad understanding of
+                the entire project development flow and its management.
+              </p>
+              <p>
+                Feel free to learn more about my work through this page
+                featuring some of my projects, as well as on my LinkedIn and
+                resume!
               </p>
             </div>
-            <div className="personLinksBox">
-              <a
-                target="_blank"
-                href="https://www.linkedin.com/in/guilhermeeger"
-              >
-                LinkedIn
-              </a>
-              <a target="_blank" href="https://github.com/GuilhermeEger">
-                gitHub
-              </a>
-              <a
-                target="_blank"
-                href="https://drive.google.com/file/d/1tKC9157r5Qsear3S1Wo_7Gp2g8csAsID/view?usp=sharing"
-              >
-                resume
-              </a>
+            <div className="personalLinksBox">
+              <div className="linksImgText">
+                <PiLinkedinLogoFill className="icon" />
+                <a
+                  target="_blank"
+                  href="https://www.linkedin.com/in/guilhermeeger"
+                >
+                  LinkedIn
+                </a>
+              </div>
+              <div className="linksImgText">
+                <PiGithubLogoFill className="icon" />
+                <a target="_blank" href="https://github.com/GuilhermeEger">
+                  gitHub
+                </a>
+              </div>
+              <div className="linksImgText">
+                <PiFolderUserFill className="icon" />
+                <a
+                  target="_blank"
+                  href="https://drive.google.com/file/d/1tKC9157r5Qsear3S1Wo_7Gp2g8csAsID/view?usp=sharing"
+                >
+                  resume
+                </a>
+              </div>
             </div>
           </div>
         </div>
@@ -120,26 +149,38 @@ function Home(props) {
             become a reality in the future!
           </p>
         </ContentBox>
-        <div>
+        <div style={{ position: "relative" }}>
           <Carousel />
+          <img
+            style={{ position: "absolute", bottom: 0, right: 0, width: 100 }}
+            src={appDownloads}
+          />
         </div>
         <p>
           These are some of the screens from one of the projects I developed for
-          my former company. It was a React Native application, but I used it
-          merely as a "shell," with all development done responsively via the
-          web, through a webview!
+          my former company. Currently, it has over <span className="highlightText">50,000 downloads</span> on the Play
+          Store, followed by another one I also developed, totaling over 100,000
+          downloads on the Play Store alone, not counting the Apple Store, where
+          the numbers were slightly higher at the time. Apple does not provide
+          the current number of app downloads in their store.
+        </p>
+        <p>
+          It was a React Native application, but I used it merely as a "shell,"
+          with all development done responsively via the web, through a webview!
         </p>
         <p>
           The strategy behind this was that we were a rapidly growing startup,
           and I needed to implement functionalities efficiently and extremely
           quickly. By keeping the entire application in React Native, we could
-          potentially face delays in rolling out new versions to clients through
-          the Apple/Play store. With the use of webview, we could deploy
-          updates, and within minutes, all clients would have access to the new
-          frontend!
+          potentially face delays in rolling out new versions to clients on the
+          Apple/Play Store. With the use of webview, we could deploy updates,
+          and within minutes, all clients would have access to the new frontend
+          version!
         </p>
         <p>
-        Additionally, this decision was also motivated by the learning curve. By focusing on React.js, I could potentially develop screens for the web/desktop system in the future ;)
+          Additionally, this decision was also motivated by the learning curve.
+          By focusing on <span className="highlightText">React.js</span>, I could potentially develop screens for the
+          web/desktop system in the future, where I have executed some projects.
         </p>
       </div>
     </div>

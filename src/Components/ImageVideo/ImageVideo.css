@@ -2,6 +2,15 @@
     width: 100%;
 }
 
+.fadeInVideo{
+    animation: fadeIn 1s;
+}
+
+@keyframes fadeIn {
+    0% { opacity: 0; }
+    100% {opacity: 100%;}
+}
+
 .iv_mainDiv{
     position: relative;
 }

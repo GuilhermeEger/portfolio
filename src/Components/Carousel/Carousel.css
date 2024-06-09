@@ -1,11 +1,3 @@
-*,
-*::before,
-*::after {
-  margin: 0;
-  padding: 0;
-  list-style-type: none;
-}
-
 :root {
   --primary: #6a59ff;
   --white: #ffffff;
@@ -57,7 +49,7 @@ html {
   max-width: 124rem;
   padding: 4rem 1rem;
   margin: 0 auto;
-  padding-top: 240px;
+  padding-top: 100px;
 }
 
 .heading {

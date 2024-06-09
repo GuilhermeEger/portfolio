@@ -20,7 +20,7 @@ import { EffectCoverflow, Pagination, Navigation } from "swiper/modules";
 function Carousel(props) {
   return (
     <div className="container">
-      <h1 className="heading">App galery</h1>
+      <h1 className="heading">Health App</h1>
       <Swiper
         effect={"coverflow"}
         grabCursor={true}

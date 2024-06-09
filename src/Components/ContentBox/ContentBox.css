@@ -1,10 +1,3 @@
-.cb_mainDiv {
-  display: grid;
-  grid-template-areas: "left right";
-  grid-template-columns: 1fr 1fr;
-  gap: 50px;
-}
-
 .contentLeftArea {
   grid-area: left;
 }
@@ -19,4 +12,29 @@
 
 .cd_imgDiv {
   margin-top: 30px;
+}
+
+.cb_title {
+  font-size: 25px;
+}
+
+.cb_wrapDev {
+  margin-top: 70px;
+}
+
+.cb_wrapTextLink {
+  padding-top: 10px;
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  font-weight: bold;
+}
+.cb_icon {
+  font-size: 15px;
+}
+
+.mainWrapLinkText {
+  display: flex;
+  margin-bottom: 15px;
+  gap: 20px;
 }

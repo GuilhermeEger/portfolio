@@ -1,27 +1,36 @@
 import React from "react";
 import "./ContentBox.css";
 import ImageVideo from "../ImageVideo/ImageVideo";
+import { PiCodeBold } from "react-icons/pi";
+import { PiArrowSquareInBold } from "react-icons/pi";
 
 function ContentBox(props) {
   return (
-    <div className="cb_mainDiv">
+    <div>
       <div
         className={
           "cb_wrapDev " +
           (props.gridTemplate == "text-img"
-            ? "contentLeftArea"
+            ? "contentLeftArea "
             : "contentRightArea")
         }
       >
         <h1 className="cb_title">{props.title}</h1>
         <div>{props.children}</div>
-        <a target="_blank" href={props.codeLink}>
-            Code
-          </a>
-          <a target="_blank" href={props.pageLink}>
-            Try it!
-          </a>
-
+        <div className="mainWrapLinkText">
+          <div className="cb_wrapTextLink">
+            <PiCodeBold className="cb_icon"/>
+            <a target="_blank" href={props.codeLink}>
+              Code
+            </a>
+          </div>
+          <div className="cb_wrapTextLink">
+            <PiArrowSquareInBold className="cb_icon"/>
+            <a target="_blank" href={props.pageLink}>
+              Try it!
+            </a>
+          </div>
+        </div>
       </div>
       <div
         className={
