@@ -65,7 +65,7 @@ html {
 }
 
 .swiper-slide {
-  width: calc(100% - 20px) !important;
+  width: calc(100% - 30px) !important;
   position: relative;
   max-width: 300px !important;
 }

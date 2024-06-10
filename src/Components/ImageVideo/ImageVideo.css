@@ -25,6 +25,7 @@
     color: white;
     cursor: pointer;
     box-shadow: 1px 1px 7px #FF0000;
+    z-index: 2;
 }
 
 .iv_img {
