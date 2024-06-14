@@ -1,0 +1,8 @@
+.techsMap {
+    display: flex;
+    gap: 10px;
+}
+
+.techItem {
+    text-decoration: underline;
+}

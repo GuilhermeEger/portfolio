@@ -18,7 +18,15 @@ function ImageVideo(props) {
       ) : (
         <img className="iv_img" src={props.img} />
       )}
-      {showVideo ? <PiPauseFill className="iv_icon" onClick={() => setShowVideo(false)}/> : <PiPlayFill className="iv_icon" onClick={() => setShowVideo(true)}/>}
+      {props.video &&
+        (showVideo ? (
+          <PiPauseFill
+            className="iv_icon"
+            onClick={() => setShowVideo(false)}
+          />
+        ) : (
+          <PiPlayFill className="iv_icon" onClick={() => setShowVideo(true)} />
+        ))}
     </div>
   );
 }

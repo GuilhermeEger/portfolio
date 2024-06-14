@@ -19,13 +19,13 @@ function ContentBox(props) {
         <div>{props.children}</div>
         <div className="mainWrapLinkText">
           <div className="cb_wrapTextLink">
-            <PiCodeBold className="cb_icon"/>
+            <PiCodeBold className="cb_icon" />
             <a target="_blank" href={props.codeLink}>
               Code
             </a>
           </div>
           <div className="cb_wrapTextLink">
-            <PiArrowSquareInBold className="cb_icon"/>
+            <PiArrowSquareInBold className="cb_icon" />
             <a target="_blank" href={props.pageLink}>
               Try it!
             </a>
@@ -36,8 +36,8 @@ function ContentBox(props) {
         className={
           "cd_imgDiv" +
           (props.gridTemplate == "text-img"
-            ? "contentLeftArea"
-            : "contentRightArea")
+            ? " contentLeftArea"
+            : " contentRightArea")
         }
       >
         <ImageVideo img={props.img} video={props.video} />
