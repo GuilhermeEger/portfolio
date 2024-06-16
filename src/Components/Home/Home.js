@@ -37,18 +37,21 @@ function Home(props) {
                 <p>
                   I am a front-end developer with experience in{" "}
                   <span className="highlightText">
-                    React, JavaScript, CSS, HTML,
+                    React, JavaScript, CSS, HTML.
                   </span>{" "}
-                  and React Native. I have spent most of my time developing for
-                  a native application with a webview interface, where I was
-                  responsible for the design and development of all
-                  functionalities.
+                  I also have knowledge of{" "}
+                  <span className="underLineText">
+                    Node, TypeScript, React Native
+                  </span>{" "}
+                  and tools like Xcode, Android Studio, Figma among others. I've
+                  worked mainly with mobile front-end (webview), but I've also
+                  been involved in full-stack web projects.
                 </p>
                 <p>
                   Additionally, I have valuable experience as a coordinator and
-                  manager, where I participated in the management of the entire
-                  team and their projects. This gave me a broad understanding of
-                  the entire project development flow and its management.
+                  manager, where I participated in managing of the entire team
+                  and their projects. This gave me a broad understanding of the
+                  entire project development flow and its management.
                 </p>
                 <p>
                   Feel free to learn more about my work through this page
