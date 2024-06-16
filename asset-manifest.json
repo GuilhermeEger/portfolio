@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/portfolio/static/css/main.e65df5b6.css",
-    "main.js": "/portfolio/static/js/main.6e40b98e.js",
+    "main.css": "/portfolio/static/css/main.a3854890.css",
+    "main.js": "/portfolio/static/js/main.e7cb0ec2.js",
     "static/js/453.1407b060.chunk.js": "/portfolio/static/js/453.1407b060.chunk.js",
     "static/media/foodLandingPage.mp4": "/portfolio/static/media/foodLandingPage.f524de7c11be3f7d6d8f.mp4",
     "static/media/memory-game.mp4": "/portfolio/static/media/memory-game.4c6ace6be5ae1fc5f4a0.mp4",
@@ -17,12 +17,12 @@
     "static/media/app_img2.jpg": "/portfolio/static/media/app_img2.fb18cdd4e37227c849c3.jpg",
     "static/media/original.jpg": "/portfolio/static/media/original.4b0e3cf81dc2484883c0.jpg",
     "index.html": "/portfolio/index.html",
-    "main.e65df5b6.css.map": "/portfolio/static/css/main.e65df5b6.css.map",
-    "main.6e40b98e.js.map": "/portfolio/static/js/main.6e40b98e.js.map",
+    "main.a3854890.css.map": "/portfolio/static/css/main.a3854890.css.map",
+    "main.e7cb0ec2.js.map": "/portfolio/static/js/main.e7cb0ec2.js.map",
     "453.1407b060.chunk.js.map": "/portfolio/static/js/453.1407b060.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.e65df5b6.css",
-    "static/js/main.6e40b98e.js"
+    "static/css/main.a3854890.css",
+    "static/js/main.e7cb0ec2.js"
   ]
 }
